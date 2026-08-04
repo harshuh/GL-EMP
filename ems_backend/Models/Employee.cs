@@ -17,6 +17,6 @@
 
         public int DepartmentId { get; set; } // Foreign Key
 
-        public Department? Department { get; set; } // Navigation property
+        public Department? Department { get; set; } // Navigation 
     }
 }
