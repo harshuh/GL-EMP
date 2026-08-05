@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ems_backend",
+    "\\ems_backend\\Data",
+    "\\ems_backend\\DTOs",
+    "\\ems_backend\\Models",
+    "\\ems_backend\\Properties",
+    "\\ems_backend\\Repositories"
   ],
   "PreviewInSolutionExplorer": false
 }

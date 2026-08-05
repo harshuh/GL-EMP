@@ -35,3 +35,15 @@ H:\GlobalLogic\ems_backend\ems_backend\obj\Debug\net8.0\refint\ems_backend.dll
 H:\GlobalLogic\ems_backend\ems_backend\obj\Debug\net8.0\ems_backend.pdb
 H:\GlobalLogic\ems_backend\ems_backend\obj\Debug\net8.0\ems_backend.genruntimeconfig.cache
 H:\GlobalLogic\ems_backend\ems_backend\obj\Debug\net8.0\ref\ems_backend.dll
+H:\GlobalLogic\GL-EMP\ems_backend\obj\Debug\net8.0\ems_backend.csproj.AssemblyReference.cache
+H:\GlobalLogic\GL-EMP\ems_backend\obj\Debug\net8.0\rpswa.dswa.cache.json
+H:\GlobalLogic\GL-EMP\ems_backend\obj\Debug\net8.0\ems_backend.GeneratedMSBuildEditorConfig.editorconfig
+H:\GlobalLogic\GL-EMP\ems_backend\obj\Debug\net8.0\ems_backend.AssemblyInfoInputs.cache
+H:\GlobalLogic\GL-EMP\ems_backend\obj\Debug\net8.0\ems_backend.AssemblyInfo.cs
+H:\GlobalLogic\GL-EMP\ems_backend\obj\Debug\net8.0\ems_backend.csproj.CoreCompileInputs.cache
+H:\GlobalLogic\GL-EMP\ems_backend\obj\Debug\net8.0\ems_backend.MvcApplicationPartsAssemblyInfo.cs
+H:\GlobalLogic\GL-EMP\ems_backend\obj\Debug\net8.0\ems_backend.MvcApplicationPartsAssemblyInfo.cache
+H:\GlobalLogic\GL-EMP\ems_backend\obj\Debug\net8.0\ems_backend.sourcelink.json
+H:\GlobalLogic\GL-EMP\ems_backend\obj\Debug\net8.0\ems_backend.dll
+H:\GlobalLogic\GL-EMP\ems_backend\obj\Debug\net8.0\refint\ems_backend.dll
+H:\GlobalLogic\GL-EMP\ems_backend\obj\Debug\net8.0\ems_backend.pdb

@@ -453,11 +453,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\GlobalLogic\\ems_backend\\ems_backend\\ems_backend.csproj",
+      "projectUniqueName": "H:\\GlobalLogic\\GL-EMP\\ems_backend\\ems_backend.csproj",
       "projectName": "ems_backend",
-      "projectPath": "H:\\GlobalLogic\\ems_backend\\ems_backend\\ems_backend.csproj",
+      "projectPath": "H:\\GlobalLogic\\GL-EMP\\ems_backend\\ems_backend.csproj",
       "packagesPath": "C:\\Users\\root\\.nuget\\packages\\",
-      "outputPath": "H:\\GlobalLogic\\ems_backend\\ems_backend\\obj\\",
+      "outputPath": "H:\\GlobalLogic\\GL-EMP\\ems_backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
