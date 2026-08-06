@@ -1,6 +1,6 @@
 // Program.cs
-using EmployeeManagementAPI.Data;
-using EmployeeManagementAPI.Repositories;
+using ems_backend.Data;
+using ems_backend.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

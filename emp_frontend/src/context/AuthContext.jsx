@@ -9,8 +9,9 @@ export const AuthProvider = ({ children }) => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
+
     const savedUser = authService.getUser();
-    if (savedUser && authService.isAuthenticated()) {
+    if (savedUser) {
       setUser(savedUser);
     }
     setLoading(false);
@@ -24,7 +25,7 @@ export const AuthProvider = ({ children }) => {
       setUser(response.user);
       return response;
     } catch (err) {
-      const errorMessage = typeof err === 'string' ? err : err.message || 'Login failed';
+      const errorMessage = err.message || 'Login failed';
       setError(errorMessage);
       throw err;
     } finally {
@@ -38,17 +39,15 @@ export const AuthProvider = ({ children }) => {
     setError(null);
   };
 
-  const value = {
-    user,
-    loading,
-    error,
-    login,
-    logout,
-    isAuthenticated: authService.isAuthenticated()
-  };
-
   return (
-    <AuthContext.Provider value={value}>
+    <AuthContext.Provider value={{
+      user,
+      loading,
+      error,
+      login,
+      logout,
+      isAuthenticated: !!user
+    }}>
       {children}
     </AuthContext.Provider>
   );

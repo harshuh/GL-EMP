@@ -1,5 +1,5 @@
-// Repositories/IDepartmentRepository
-using ems_backend.Modles;
+
+using ems_backend.Models;
 
 namespace ems_backend.Repositories;
 

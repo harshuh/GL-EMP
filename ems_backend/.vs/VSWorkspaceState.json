@@ -3,8 +3,9 @@
     "",
     "\\Controllers",
     "\\Data",
+    "\\Models",
     "\\Repositories"
   ],
-  "SelectedNode": "\\Repositories\\DepartmentRepository.cs",
+  "SelectedNode": "\\ems_backend.slnx",
   "PreviewInSolutionExplorer": false
 }

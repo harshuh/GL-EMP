@@ -1,9 +1,9 @@
+// services/department.js
 import api from './api';
 
 const DEPARTMENT_ENDPOINT = '/departments';
 
 export const departmentService = {
-
   getAll: async () => {
     try {
       const response = await api.get(DEPARTMENT_ENDPOINT);

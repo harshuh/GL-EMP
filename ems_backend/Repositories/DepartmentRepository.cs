@@ -1,4 +1,3 @@
-
 using ems_backend.Data;
 using ems_backend.Models;
 using Microsoft.EntityFrameworkCore;

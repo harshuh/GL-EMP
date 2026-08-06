@@ -1,9 +1,9 @@
+// services/employee.js
 import api from './api';
 
 const EMPLOYEE_ENDPOINT = '/employees';
 
 export const employeeService = {
-
   getAll: async (pageNumber = 1, pageSize = 10) => {
     try {
       const response = await api.get(EMPLOYEE_ENDPOINT, {
@@ -53,9 +53,7 @@ export const employeeService = {
 
   searchByName: async (name) => {
     try {
-      const response = await api.get(`${EMPLOYEE_ENDPOINT}/search`, {
-        params: { name }
-      });
+      const response = await api.get(`${EMPLOYEE_ENDPOINT}/search`, { params: { name } });
       return response.data;
     } catch (error) {
       throw error.response?.data || error.message;
@@ -80,12 +78,9 @@ export const employeeService = {
     }
   },
 
-
   updateStatus: async (id, status) => {
     try {
-      const response = await api.patch(`${EMPLOYEE_ENDPOINT}/${id}/status`, {
-        status
-      });
+      const response = await api.patch(`${EMPLOYEE_ENDPOINT}/${id}/status`, { status });
       return response.data;
     } catch (error) {
       throw error.response?.data || error.message;
@@ -94,9 +89,7 @@ export const employeeService = {
 
   filter: async (filters) => {
     try {
-      const response = await api.get(`${EMPLOYEE_ENDPOINT}/filter`, {
-        params: filters
-      });
+      const response = await api.get(`${EMPLOYEE_ENDPOINT}/filter`, { params: filters });
       return response.data;
     } catch (error) {
       throw error.response?.data || error.message;

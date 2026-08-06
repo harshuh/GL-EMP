@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
+using ems_backend.Models;
 namespace ems_backend.Data;
 
 public class AppDbContext : DbContext
